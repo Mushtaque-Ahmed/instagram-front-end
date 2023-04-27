@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Instagram</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- fontawsome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fobt link  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <!-- Bootstrap CSS v5.1.3 -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- custom css  -->
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <!-- carousel  css-->
+    <link rel="stylesheet" href="bootstrap/carouselcss/owl.carousel.css">
+    <link rel="stylesheet" href="bootstrap/carouselcss/owl.theme.green.min.css">
+
+
+</head>
+
+<body>
+    <!-- Appbar for desktp -->
+    <div class="bg-white shadow  d-lg-none d-flex align-items-center fixed-top">
+        <div class="container-fluid">
+            <!-- navbar for mobile  -->
+            <div class=" col d-flex justify-content-evenly">
+                <!-- heading  -->
+                <div class="d-flex justify-content-start">
+                    <h4 class="m-2 p-2" style="font-family: sofia,san-sorif; font-size: 2rem;">
+                        <i class="fas fa-gear "></i>
+                    </h4>
+                </div>
+                <!-- search  -->
+                <div class="d-flex justify-content-end">
+
+                    <div class="input-group ms-2 m-2">
+
+                        <!-- search for mobile  -->
+                        <div class=" d-lg-none" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <div class="p-3 fs-5" style="min-height:40px;
+                            min-width: 230px;">mushtaq@gamil.com
+                                <i class="fas fa-angle-down text-muted"></i>
+                            </div>
+                        </div>
+                        <!-- search result  -->
+
+                        <!-- modal profile  -->
+
+                        <!-- end modal  -->
+
+                    </div>
+                </div>
+
+                <!-- love manu  -->
+                <div class="d-flex justify-content-end">
+
+                    <div class=" d-lg-none m-3 border-0 rounded-pill" style="min-height:40px">
+                        <i class="fas fa-heart  fs-1 text-muted">
+                            <span
+                            class="top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                            style="font-size: 0.9rem;">
+                            1
+                            <span class="visually-hidden"></span>
+                        </span>
+                        </i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Appbar for desktp end -->
+    <!-- Appbar for Mobile -->
+    <div class=" bg-dark  d-flex fixed-bottom shadow d-block d-md-none ">
+        <div class="container-fluid">
+            <!-- nav  -->
+            <div class="d-flex justify-content-between p-3">
+                <div class="mx-4  nav_btn nav_btn-active d-flex align-items-center flex-sm-shrink-1">
+                    <button class="btn px-4">
+                        <i class="fs-3 fas fa-home text-white"></i>
+                    </button>
+                </div>
+                <div class="mx-4  nav_btn nav_btn-active d-flex align-items-center flex-sm-shrink-1">
+                    <button class="btn px-4">
+                        <i class="fs-3 fas fa-search text-white"></i>
+                    </button>
+                </div>
+                <div class="mx-4  nav_btn nav_btn-active d-flex align-items-center flex-sm-shrink-1">
+                    <button class="btn px-4">
+                        <i class="fs-3 fas fa-clapperboard text-white"></i>
+                    </button>
+                </div>
+                <div class="mx-4  nav_btn nav_btn-active d-flex align-items-center flex-sm-shrink-1">
+                    <button class="btn px-4">
+                        <i class="fs-3 fa-solid fa-paper-plane text-white">
+                            
+                        </i>
+                    </button>
+                </div>
+                <div class="mx-4  nav_btn nav_btn-active d-flex align-items-center flex-sm-shrink-1">
+                    <a href="#" class="text-decoration-none ">
+                        <img src="https://source.unsplash.com/collection/happy-people" class="rounded-circle me-2"
+                            alt="avatar" style="width:30px;height: 30px; object-fit: cover;">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Appbar for Mobile end -->
+
+
+
+
+    <!-- main section  -->
+    <div class="container-fluid">
+        <div class="row justify-content-evenly">
+            <!-- side part  -->
+            <div class="col-12 col-lg-2">
+                <div class="d-none d-lg-block d-xxl-none fixed-top   overflow-hidden h-100 scrollbar menu_item"
+                    style="max-width:360px; z-index:4">
+                    <ul class="navbar-nav mt-4 ms-3 d-flex flex-column pb-2 mb-2"
+                        style="padding-top:10px; padding-left: 10px;">
+                        <h4 class="text-dark" style="font-family: sofia,sans-serif;">Instagram</h4>
+                    </ul>
+                    <ul class="navbar-nav mt-3 ms-3  d-flex flex-column pb-5 mb-5"
+                        style="padding-top:10px; padding-left: 0px;">
+                        <li class="dropdown-item p-1 mt-2  rounded">
+                            <a href="#" class="text-decoration-none text-dark d-flex align-atems-center">
+                                <div class="p-2">
+                                    <i class="fas fa-home fs-5"></i>
+                                </div>
+                                <div>
+                                    <p class="m-2">Home</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown  dropdown-item p-1 mt-2 ">
+                            <a class="text-dark d-flex align-items-center text-decoration-none  " role="button"
+                                id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <div class="p-2  ">
+                                    <i class="fas fa-search fs-5">
+                                    </i>
+
+                                    <p class="m-2">Search</p>
+                                    <!-- dropdow search  -->
+
+
+                                    <ul class="dropdown-menu shadow" aria-labelledby="dropdownMenuLink"
+                                        style="height: 350px !important;">
+                                        <li class="dropdown-item">
+                                            <p class="fs-5">Search</p>
+                                            <div class="d-flex ">
+                                                <input type="text" class=" bg-gray form-control border-0 rounded-pill"
+                                                    placeholder="search..." style="width: 300px; ">
+
+                                            </div>
+                                            <hr class="w-100">
+
+
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><b>Recent</b></li>
+                                        <div class="d-flex justify-content-center align-content-end">
+                                            <p class="fs-7 ">No recent searches</p>
+                                        </div>
+
+                                    </ul>
+                                    <!-- </dropdown end> -->
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown-item p-1 mt-2 rounded">
+                            <a href="#" class="text-decoration-none text-dark d-flex align-atems-center">
+                                <div class="p-2">
+
+                                    <i class="fa-solid fa-clapperboard fs-5"></i>
+                                </div>
+                                <div>
+                                    <p class="m-2">Reels</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown-item p-1 mt-2 rounded">
+                            <a href="#" class="text-decoration-none text-dark d-flex align-atems-center">
+                                <div class="p-2">
+
+                                    <i class="fa-solid fa-paper-plane fs-5"></i>
+                                </div>
+                                <div>
+                                    <p class="m-2">Messages</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown-item p-1 mt-2 rounded">
+                            <a href="#" class="text-decoration-none text-dark d-flex align-atems-center">
+                                <div class="p-2">
+                                    <i class="fas fa-heart fs-5 position-relative">
+                                        <span
+                                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                            style="font-size: 0.5rem;">
+                                            1
+                                            <span class="visually-hidden"></span>
+                                        </span>
+                                    </i>
+                                </div>
+                                <div>
+                                    <p class="m-2">Notifications</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown-item p-1 mt-2 rounded">
+                            <a href="#" class="text-decoration-none text-dark d-flex align-atems-center">
+                                <div class="p-2">
+                                    <i class="fa-regular fa-square-plus fs-5"></i>
+                                </div>
+                                <div>
+                                    <p class="m-2">Create</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown-item p-1 mt-2 rounded">
+                            <a href="#" class="text-decoration-none text-dark d-flex align-atems-center">
+                                <div class="p-2">
+                                    <img src="https://source.unsplash.com/collection/happy-people"
+                                        class="rounded-circle me-2" alt="avatar"
+                                        style="width:25px;height: 25px; object-fit: cover;">
+                                </div>
+                                <div>
+                                    <p class="m-2 p-0">Profie</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown-item p-1 mt-2 rounded ">
+                            <a href="#" class="text-decoration-none text-dark d-flex align-atems-center">
+                                <div class="p-2">
+                                    <i class="fa-solid fa-bars fs-5" data-bs-container="body" data-bs-toggle="popover"
+                                        data-bs-placement="left" data-bs-html="true" data-bs-toggle="dropdown"
+                                        data-bs-auto-close="outside" data-bs-content='
+
+                                        <ul class="navbar-nav border-0 overflow-auto " style=" ; height:auto">
+                                        
+                                        <li class="dropdown-item  mt-2  ">
+   
+                                        <a href="#" class="text-decoration-none text-dark ">
+                                            <div class=" d-flex align-items-between">
+                                                <p class="me-2"><i class="fas fa-gear"></i></p>
+                                                <div>
+                                                    <p class="mx-2">Setting</p>
+                                                </div>
+                                            </div>   
+                                        </a>
+                                    </li>
+                                    <!-- 2nd  -->
+                                    <li class="dropdown-item  mt-2  ">
+                                        <a href="#" class="text-decoration-none  text-dark ">
+                                            <div class=" d-flex align-items-between">
+                                                <p class="me-2 "><i class="fas fa-clock "></i></p>
+                                                <div>
+                                                    <p class="mx-2">Your Activity</p>
+                                                </div>
+                                            </div>   
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-item  mt-2  ">
+                                        <a href="#" class="text-decoration-none  text-dark ">
+                                            <div class=" d-flex align-items-between">
+                                                <p class="me-2 "><i class="fas fa-bookmark "></i></p>
+                                                <div>
+                                                    <p class="mx-2">Saved</p>
+                                                </div>
+                                            </div>   
+                                        </a>
+                                    </li>
+                                    <hr class="m-0">
+                                    <li class="dropdown-item  mt-2  ">
+                                        <a href="#" class="text-decoration-none  text-dark ">
+                                            <div class=" d-flex align-items-between">
+                                                <p class="me-2 "><i class="fas fa-moon "></i></p>
+                                                <div>
+                                                    <p class="mx-2">Switch Apearence</p>
+                                                </div>
+                                            </div>   
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-item  mt-2  ">
+                                        <a href="#" class="text-decoration-none  text-dark ">
+                                            <div class=" d-flex align-items-between">
+                                                <p class="me-2 "><i class="fas fa-briefcase "></i></p>
+                                                <div>
+                                                    <p class="mx-2">Report</p>
+                                                </div>
+                                            </div>   
+                                        </a>
+                                    </li>  
+                                    <li class="dropdown-item  mt-2  ">
+                                        <a href="#" class="text-decoration-none  text-dark ">
+                                            <div class=" d-flex align-items-between">
+                                                
+                                                <div>
+                                                    <p class="mx-2">Switch Account</p>
+                                                </div>
+                                            </div>   
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-item  mt-2  ">
+                                        <a href="#" class="text-decoration-none  text-dark ">
+                                            <div class=" d-flex align-items-between">
+                                                
+                                                <div>
+                                                    <p class="mx-2">Logout</p>
+                                                </div>
+                                            </div>   
+                                        </a>
+                                    </li>     
+                                </ul>  '>
+                                    </i>
+
+                                </div>
+
+                                <div>
+                                    <p class="m-2">More</p>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+
+            <div class=" col-lg-1">
+                <!-- virtical line  -->
+                <div class="d-flex h-100">
+                    <div class="vr"></div>
+                </div>
+            </div>
+
+            <!-- ======profile for desktop======== -->
+            <div class="col-12 col-lg-9">
+                <div class=" bg-white border-1 d-sm-none d-md-block ">
+                    <div class="d-flex justify-content-around ml-5 ">
+                        <div class="d-flex align-items-center" style="margin-right:70px !important;">
+                            <img src="https://source.unsplash.com/random/1" class="rounded-circle mx-3
+                        " alt="avatar" style="width:150px;height: 150px;object-fit: cover;">
+                        </div>
+
+                        <div class="d-flex align-items-start" style="margin-right:120px !important;">
+                            <a href="#" type="buuton" class="text-decoration-none">
+                                <p class="text-muted fs-4">mushtaqueahmedwaiz
+                                    <button class="badge bg-light border-0 text-dark fs-7">Edit Profile</button>
+                                    <i class="fas fa-gear text-muted m-2" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#setingModal"></i>
+
+                                </p>
+                                <div class="text-muted d-flex fs-7">12 posts <p class="text-muted mx-5 fs-7"
+                                        tyoe="button">151
+                                        followers</p>
+                                    <p class="text-muted mx-1" tyoe="button">384 following</p>
+                                </div>
+                                <p class="text-dark">Waiz</p>
+                                <p class="m-0 text-muted" style="margin-top: -20px !important;">NERIM GROUP OF
+                                    INSTITUITIONS</p>
+                                <p>coderwaiz.com</p>
+                            </a>
+                        </div>
+
+
+                        <div class="d-flex align-items-start" style="margin-right:50px !important;">
+                            <a href=" " class="text-decoration-none">
+                                <p>
+                                    <h6 class="text-muted"></h6>
+                                    <span><button class="badge bg-secondary"></button></span>
+                                </p>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!-- profile end  -->
+                <!-- profile for mobile  -->
+                <div class=" profile bg-white border-1  d-lg-none">
+                    <div class="mainprofile d-flex justify-content-around ">
+                        <div class="d-flex align-items-center ">
+                            <img src="https://source.unsplash.com/random/1" class="rounded-circle mx-3
+                        " alt="avatar" style="width:150px;height: 150px;object-fit: cover;">
+                        </div>
+
+                        <div class="d-flex align-items-start ">
+                            <a href="#" class="text-decoration-none flex-shrink-1">
+                                <p class="text-muted fs-4">mushtaqueahmedwaiz
+                                    <button class="badge bg-light border-0 text-dark fs-7">Edit Profile</button>
+                                    <i class="fas fa-gear text-muted m-2" type="button" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal"></i>
+
+                                </p>
+                                <div class="text-muted d-flex fs-7">12 posts <p class="text-muted mx-5 fs-7"
+                                        tyoe="button">151
+                                        followers</p>
+                                    <p class="text-muted mx-1" tyoe="button">384 following</p>
+                                </div>
+                                <p class="text-dark">Waiz</p>
+                                <p class="m-0 text-muted" style="margin-top: -20px !important;">NERIM GROUP OF
+                                    INSTITUITIONS</p>
+                                <p>coderwaiz.com</p>
+                            </a>
+                        </div>
+
+
+
+
+
+                    </div>
+                </div>
+                <!-- nav  -->
+                <div class="row justify-content-evenly mt-5" style="border-top: 1px solid rgb(128, 124, 124);  ;">
+
+                    <ul class="nav justify-content-center mt-5">
+                        <li class="nav-item fs-7"><a class="nav-link text-muted"><i
+                                    class="fas fa-bookmark"></i>&nbsp;POST</a></li>
+                        <li class="nav-item fs-7"><a class="nav-link text-muted"><i
+                                    class="fa-solid fa-clapperboard "></i>&nbsp;REELS</a></li>
+                        <li class="nav-item fs-7"><a class="nav-link text-muted"><i
+                                    class="fas fa-bookmark"></i>&nbsp;SAVED</a></li>
+                        <li class="nav-item fs-7"><a class="nav-link text-muted"><i
+                                    class="fas fa-users"></i>&nbsp;TAGGED</a></li>
+                    </ul>
+                </div>
+                <!-- post  -->
+                <div class="row ">
+                    <div class="d-flex justify-content-center flex-wrap ">
+                        <img src="https://source.unsplash.com/random/1" alt="image" class=" p-2 img-fluid"
+                            style="width: 200px; height: 200px;object-fit: cover;">
+                        <img src="https://source.unsplash.com/random/1" alt="image" class="p-2 img-fluid"
+                            style="width: 200px; height: 200px;object-fit: cover;">
+                        <img src="https://source.unsplash.com/random/1" alt="image" class="p-2 img-fluid"
+                            style="width: 200px; height: 200px;object-fit: cover;">
+                        <img src="https://source.unsplash.com/random/1" alt="image" class="p-2 img-fluid"
+                            style="width: 200px; height: 200px;object-fit: cover;">
+                        <img src="https://source.unsplash.com/random/1" alt="image" class="p-2 img-fluid"
+                            style="width: 200px; height: 200px;object-fit: cover;">
+                        <img src="https://source.unsplash.com/random/1" alt="image" class="p-2 img-fluid"
+                            style="width: 200px; height: 200px;object-fit: cover;">
+                        <img src="https://source.unsplash.com/random/1" alt="image" class="p-2 img-fluid"
+                            style="width: 200px; height: 200px;object-fit: cover;">
+                        <img src="https://source.unsplash.com/random/1" alt="image" class="p-2 img-fluid"
+                            style="width: 200px; height: 200px;object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    </div>
+    <!-- Modal start-->
+    <!-- setting modal  -->
+
+    <div class="modal fade" id="setingModal" tabindex="-1" aria-labelledby="setingModalLabel" aria-hidden="true"
+        data-bs-auto-close="outside">
+        <div class="modal-dialog modal-dialog-centered" style="width: 350px; height: 400px; padding: 0 !important; ">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="d-flex flex-column">
+                        <a href="#" class="text-decoration-none text-muted">
+                            <p class="text-center ">Change Password</p>
+                            <hr class="w-100 text-muted">
+                        </a>
+                        <a href="#" class="text-decoration-none text-muted">
+                            <p class="text-center">QR Code </p>
+                            <hr class="w-100 text-muted">
+                        </a>
+                        <a href="#" class="text-decoration-none text-muted">
+                            <p class="text-center">Apps & Website </p>
+                            <hr class="w-100 text-muted">
+                        </a>
+                        <a href="#" class="text-decoration-none text-muted">
+                            <p class="text-center">Notifications </p>
+                            <hr class="w-100 text-muted">
+                        </a>
+                        <a href="#" class="text-decoration-none text-muted">
+                            <p class="text-center">Privacy & Security </p>
+                            <hr class="w-100 text-muted">
+                        </a>
+                        <a href="#" class="text-decoration-none text-muted">
+                            <p class="text-center">Supervision </p>
+                            <hr class="w-100 text-muted">
+                        </a><a href="#" class="text-decoration-none text-muted">
+                            <p class="text-center">Login Activity </p>
+                            <hr class="w-100 text-muted">
+                        </a><a href="#" class="text-decoration-none text-muted">
+                            <p class="text-center">Email & Instagram</p>
+                            <hr class="w-100 text-muted">
+                        </a>
+                        </a><a href="#" class="text-decoration-none text-muted">
+                            <p class="text-center">Logout</p>
+                            <hr class="w-100 text-muted">
+                        </a>
+                        </a><a href="#" class="text-decoration-none text-muted">
+                            <p class="text-center">Cancel</p>
+                            <hr class="w-100 text-muted">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- seting modal end  -->
+    <!-- mobile seting profile modal -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        data-bs-auto-close="outside">
+        <div class="modal-dialog rounded" style="width: 350px; height: 400px; padding: 0 !important;">
+            <div class="modal-content modal-dialog-centered">
+                <div class="modal-header " style="margin-left: 280px !important;">
+                    <h5 class="modal-title" id="exampleModalLabel">  </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="text-center">
+                            <h4 class="m-2 p-2 text-dark" style="font-family: sofia,san-sorif; font-size: 2rem;">
+                                Instagram</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 p-5">
+                        <div class="input-group  p-1">
+                            <input type="text" class="form-control bg-gray"
+                                placeholder="phone number,username or mobile">
+                        </div>
+                        <div class="input-group  p-1">
+                            <input type="text" class="form-control bg-gray"
+                                placeholder="phone number,username or mobile">
+                        </div>
+                       <div class="input-group p-1">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                            <label class="form-check-label" for="flexCheckChecked">
+                                Checked checkbox
+                            </label>
+                        </div>
+                       </div>
+
+                    </div>
+                    <div class="p-2 mb-3">
+                        <input type="text" type="button" class="form-control btn btn-primary rounded-pill" value="Log in">
+    
+                    </div>
+                    
+                </div>
+                <div class="p-2">
+                 <p><a href="" class="text-decoration-none text-muted">Forgot Password</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- javascript popover plugin  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <!-- jquery file  -->
+    <script type="text/javascript" src="bootstrap/jquery/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="bootstrap/jquery/jquery.min.js"></script>
+
+    <script src="bootstrap/jquery/owl.carousel.min.js"></script>
+
+
+    <script>
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+        var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+            return new bootstrap.Popover(popoverTriggerEl)
+        })
+    </script>
+    <!-- carousel  -->
+
+</body>
+
+
+</html>
+
+
+<!-- carousel  -->
